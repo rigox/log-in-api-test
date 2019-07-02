@@ -5,7 +5,7 @@ const db =  require("./config/db")
 const users =  require("./routes/user")
 const auth =  require("./routes/auth")
 const cors  = require("cors")
-
+const a =  1
 //add cross origin function
 app.use(cors())
 app.use(express.urlencoded (),express.json())
